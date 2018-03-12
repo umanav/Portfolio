@@ -1,0 +1,163 @@
+
+#wrapper{
+    width: 1000px;
+    background-color: #6F5964;
+    margin: 0px auto;
+    border: 2px solid black;
+}
+#header {
+    background-color: white;
+    font-weight: bold;
+    font-style: arial;
+
+    /* vertical-align: top; */
+}
+    #name{
+
+        font-size: 24pt;
+        display:inline-block;
+        width: 480px;
+        padding-left: 15px;
+    }
+    #title{
+        text-align: right;
+        font-size: 15pt;
+        display:inline-block;
+        width: 480px;
+    }
+#image{
+    display:inline-block;
+    width: 480px;
+}
+    #Main_Image{
+        border: 5px solid #C0C0C0;
+        width: 400px;
+        
+        margin: 20px;
+    }  
+#about{
+    display: inline-block;
+    width: 460px;
+    padding: 20px 10px;
+    vertical-align: top;
+}
+#about_title{
+    background: radial-gradient(gray,silver);
+    padding: 5px;
+}
+    #about_title h3{
+        margin: 0px;
+        padding: 5px;
+        color: white
+    }
+#about_body{
+    background-color: #F5F1F5;
+    padding: 5px;
+
+}
+    #about_body p{
+        font-size: 17px;
+        width: 450px;
+        padding: 5px;
+        margin: 8px 2px;
+    }
+    #about_body a{
+        color: black;
+        display: block;
+        font-size: 18px;
+        margin: 2px 7px;
+        padding-bottom: 10px;
+    }
+.proyect{  
+    display: inline-block;
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    vertical-align: top;
+}
+.proyects_head{
+    padding: 5px 0px;
+    width: 300px;
+    background: radial-gradient(gray,silver);
+}
+    .proyects_head h3{
+        margin: 0px;
+        padding: 5px;
+        color: white;
+    }
+
+.proyects_image{
+    width: 300px;
+    background-color: white;
+}
+.proyects_par{
+    width: 300px;
+    height: 180px;
+    background-color: #F5F1F5;
+}
+    .proyects_par p{
+        margin: 0px;
+        padding: 5px;
+    }
+.proyects_subtitle{
+    width: 300px;
+}
+    .proyects_subtitle h4{
+        margin: 0px;
+        padding: 5px;
+        color: white;
+        background: radial-gradient(gray,silver);
+    }
+.sub_images{
+    width: 300px;
+    background-color: #F5F1F5;
+}
+    .proyects_subimage{
+        width: 40px;
+        margin-bottom: 10px; 
+        padding: 5px;
+    }
+.button{
+    text-align: center;
+    margin: 0px auto;   
+    background-color: #F5F1F5;
+    padding-bottom:20px;
+}
+.button p{
+    font-weight: bold;
+    border-radius: 5px;
+    display: inline;
+    padding: 5px;
+    color: white;
+    margin: 0px;
+    background-color: #407D61;
+    border: 1px solid black;
+}
+#footer{
+    text-align: center;
+    background-color: white;
+    padding: 10px 0px;
+}
+    .social_img{
+        width: 20px;
+    }
+    .social_link{
+        color: black;
+        font-style: italic;
+    }
+#footer p{
+    margin: 5px;
+}
+#github{
+    display: inline-block;
+}
+#linkedin{
+    display: inline-block;
+}
+#twitter{
+    display: inline-block;
+}
+#codepen{
+    display: inline-block;
+}
